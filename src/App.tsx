@@ -40,8 +40,6 @@ function App() {
       const { data } = await blink.ai.generateImage({
         prompt,
         size: '1024x1024',
-        quality: 'hd',
-        style: 'natural',
         n: 1
       })
 
